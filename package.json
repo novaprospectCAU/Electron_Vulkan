@@ -1,0 +1,23 @@
+{
+  "name": "electron_vulkan_tuto",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "srcs/index.cjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc ./srcs/*.tsx && electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "electron": "^31.3.1",
+    "eslint": "^9.8.0",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.9.0",
+    "typescript-eslint": "^8.0.0"
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
